@@ -1,0 +1,6 @@
+Feature: Test
+  Scenario: Test_Builder
+    Given Burger_Builder
+    When test_hamburger_builder return OK
+    And test_cheeseburger_builder return OK
+    Then Successfully
